@@ -23,13 +23,14 @@ const Navbar = () => {
   ) : (
     <button
       onClick={openSignIn}
-      className='flex items-center gap-2 rounded-full text-sm cursor-pointer bg-primary text-white px-6 py-2.5 md:px-10 md:py-2.5'
-      // Ensure it's always block-level for visibility, and adjust padding for smaller screens
+      className="flex items-center gap-2 rounded-full text-sm cursor-pointer bg-primary text-white px-5 py-2 md:px-8 md:py-2.5"
     >
-      Get Started <ArrowRight className='w-4 h-4'/>
+      <span className="text-sm">Get Started</span>
+      <ArrowRight className="w-4 h-4" />
     </button>
   )
 }
+
 
      
     </div>
