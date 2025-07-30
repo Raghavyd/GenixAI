@@ -1,0 +1,13 @@
+
+<svg width="32" height="32" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="aetherGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF00FF"/>
+      <stop offset="33%" stop-color="#8A2BE2"/>
+      <stop offset="66%" stop-color="#00CFFF"/>
+      <stop offset="100%" stop-color="#00FFAB"/>
+    </linearGradient>
+  </defs>
+  <circle cx="50" cy="50" r="48" fill="url(#aetherGradient)" />
+  <path d="M50 25 L30 75 H40 L50 50 L60 75 H70 L50 25 Z" fill="white"/>
+</svg>

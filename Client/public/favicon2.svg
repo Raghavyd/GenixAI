@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="32" height="32">
+  <defs>
+    <linearGradient id="genixGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF00C7" />
+      <stop offset="50%" stop-color="#6A00FF" />
+      <stop offset="100%" stop-color="#00E0FF" />
+    </linearGradient>
+  </defs>
+  <circle cx="50" cy="50" r="40" fill="url(#genixGradient)" />
+  <text x="50" y="50" font-size="45" font-family="Poppins, sans-serif" font-weight="bold"
+        text-anchor="middle" dominant-baseline="middle" fill="white">
+    G
+  </text>
+</svg>

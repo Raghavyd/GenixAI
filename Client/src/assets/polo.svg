@@ -1,0 +1,22 @@
+
+<svg width="1000" height="255" viewBox="0 0 1000 255" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="rainbowGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF00FF"/>
+      <stop offset="25%" stop-color="#8A2BE2"/>
+      <stop offset="50%" stop-color="#00CFFF"/>
+      <stop offset="75%" stop-color="#00FFAB"/>
+      <stop offset="100%" stop-color="#FFFF00"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Gradient Circle with A -->
+  <circle cx="100" cy="127" r="90" fill="url(#rainbowGradient)" />
+  <path d="M100 63.75 C92 63.75, 80 204.0, 80 229.5 H90 L100 140.25 L110 229.5 H120 C120 204.0, 108 63.75, 100 63.75 Z" fill="white"/>
+
+  <!-- Text -->
+  <text x="200" y="178" font-family="Segoe UI, sans-serif" font-size="114" font-weight="600" letter-spacing="1">
+    <tspan fill="#8A2BE2">Aether</tspan>
+    <tspan fill="#00CFFF">AI</tspan>
+  </text>
+</svg>
