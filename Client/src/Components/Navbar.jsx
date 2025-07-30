@@ -18,9 +18,17 @@ const Navbar = () => {
   onClick={() => navigate('/')}
 />
 {
-  user? <UserButton/>
-  :<button onClick={openSignIn} className='flex items-center gap-2 rounded-full text-sm  cursor-pointer bg-primary
-      text-white px-10 py-2.5'>Get Started <ArrowRight className='w-4 h-4'/></button>
+  user ? (
+    <UserButton />
+  ) : (
+    <button
+      onClick={openSignIn}
+      className='flex items-center gap-2 rounded-full text-sm cursor-pointer bg-primary text-white px-6 py-2.5 md:px-10 md:py-2.5'
+      // Ensure it's always block-level for visibility, and adjust padding for smaller screens
+    >
+      Get Started <ArrowRight className='w-4 h-4'/>
+    </button>
+  )
 }
 
      
