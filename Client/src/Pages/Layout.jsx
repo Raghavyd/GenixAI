@@ -25,7 +25,7 @@ const Layout = () => {
         <img
           src={assets.holo}
           alt="logo"
-          className="w-[150px] h-auto cursor-pointer"
+          className="w-[250px] h-auto cursor-pointer"
           onClick={() => navigate('/')}
         />
         {sidebar ? (

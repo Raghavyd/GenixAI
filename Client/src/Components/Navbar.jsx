@@ -13,7 +13,8 @@ const Navbar = () => {
   <img
     src={assets.holo}
     alt="logo"
-    className="w-32 sm:w-90 md:w-60 h-auto cursor-pointer"
+    className="w-[190px] md:w-60 h-auto cursor-pointer"
+    // className="w-32 sm:w-90 md:w-60 h-auto cursor-pointer"
     onClick={() => navigate('/')}
   />
   {user ? (
